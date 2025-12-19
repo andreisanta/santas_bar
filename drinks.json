@@ -1,0 +1,618 @@
+[
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "category": "rom",
+    "image": "images/mojito.jpg",
+    "ingredients": [
+      {
+        "item": "Rom alb",
+        "quantity": "60ml (2 oz)"
+      },
+      {
+        "item": "Suc Lime",
+        "quantity": "30ml (1 oz)"
+      },
+      {
+        "item": "Sirop Zahăr",
+        "quantity": "25ml"
+      },
+      {
+        "item": "Mentă",
+        "quantity": "6-8 frunze"
+      },
+      {
+        "item": "Apă carbogazoasă",
+        "quantity": "60ml (2 oz)"
+      }
+    ],
+    "preparation": "Menta rupta in pahar, adaute ingredientele (fara apa), apoi gheta, apa minerala, amestecat.",
+    "serving": "Pahar înalt, cu pai și frunză de mentă ca decor.",
+    "video": "https://www.youtube.com/watch?v=NANdz-YKMUw"
+  },
+  {
+    "id": "daiquiri",
+    "name": "Daiquiri",
+    "category": "rom",
+    "image": "images/daiquiri.jpg",
+    "ingredients": [
+      {
+        "item": "Rom alb",
+        "quantity": "60ml (2 oz)"
+      },
+      {
+        "item": "Suc Lime",
+        "quantity": "30ml (1 oz)"
+      },
+      {
+        "item": "Sirop Zahăr",
+        "quantity": "20ml (2/3 oz)"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker.",
+    "serving": "Pahar coupe racit, gheata, felie lime.",
+    "video": "https://www.youtube.com/watch?v=TbRmNrAeymo"
+  },
+  {
+    "id": "salty_bird",
+    "name": "Salty Bird",
+    "category": "rom",
+    "image": "images/salty-bird.jpg",
+    "ingredients": [
+      {
+        "item": "Rom alb",
+        "quantity": "45ml (1 1/2 oz)"
+      },
+      {
+        "item": "Campari",
+        "quantity": "22.5ml (3/4 oz)"
+      },
+      {
+        "item": "Suc ananas",
+        "quantity": "45ml (1 1/2 oz)"
+      },
+      {
+        "item": "Suc lime",
+        "quantity": "15ml (1/2 oz)"
+      },
+      {
+        "item": "Sirop zahar",
+        "quantity": "15ml (1/2 oz)"
+      },
+      {
+        "item": "Sare",
+        "quantity": "un pic de"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker.",
+    "serving": "Pahar cocktail, gheata zdrobita pana se umple paharul,, frunze menta deasupra.",
+    "video": "https://www.youtube.com/watch?v=vi_g5FWqIAo&t=431s"
+  },
+  {
+    "id": "rum_punch",
+    "name": "Rum Punch",
+    "category": "rom",
+    "image": "images/rum-punch.jpg",
+    "ingredients": [
+      {
+        "item": "Rom alb",
+        "quantity": "30mL (1oz)"
+      },
+      {
+        "item": "Rom negru",
+        "quantity": "30mL (1oz)"
+      },
+      {
+        "item": "Suc ananas",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Suc portocale",
+        "quantity": "30mL (1oz)"
+      },
+      {
+        "item": "Suc lime",
+        "quantity": "15mL (1/2 oz)"
+      },
+      {
+        "item": "Sirop Grenadine",
+        "quantity": "15mL (1/2 oz)"
+      }
+    ],
+    "preparation": "Toate ingredientele (mai putin grenadine) in shaker",
+    "serving": "Pahar cocktail, gheata, suc grenadine deasupra, felie lime, cireasa",
+    "video": "https://www.youtube.com/watch?v=sRTGCquUgMs"
+  },
+  {
+    "id": "pineapple_rum_daiquiri",
+    "name": "Pineapple rum daiquiri",
+    "category": "rom",
+    "image": "images/pineapple-rum-daiquiri.jpg",
+    "ingredients": [
+      {
+        "item": "Rom Plantation Pineapple",
+        "quantity": "45mL (1 1/2 oz)"
+      },
+      {
+        "item": "Maraschino Liqueur",
+        "quantity": "7.5mL (0.25 oz)"
+      },
+      {
+        "item": "Suc lime",
+        "quantity": "15mL (0.5 oz)"
+      },
+      {
+        "item": "Sirop zahar",
+        "quantity": "7.5mL (0.25 oz)"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker",
+    "serving": "Pahar coupe racit, gheata pisata, felie lime / portocala, cireasa maraschino, frunze menta",
+    "video": "https://www.youtube.com/watch?v=P-yV8_hHFOg"
+  },
+  {
+    "id": "bella_donna_daiquiri",
+    "name": "Bella Donna daiquiri",
+    "category": "rom",
+    "image": "images/bella_donna_daquiri.jpg",
+    "ingredients": [
+      {
+        "item": "Rom negru",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Amaretto",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Suc lamaie",
+        "quantity": "15mL (1/2oz)"
+      },
+      {
+        "item": "Sirop zahar",
+        "quantity": "5mL (1 lingurita)"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker",
+    "serving": "Pahar coupe, racit, zahar+scortisoara pe margine",
+    "video": "https://www.youtube.com/watch?v=Q80UbypcVQc"
+  },
+  {
+    "id": "jamaican_breeze",
+    "name": "Jamaican Breeze",
+    "category": "rom",
+    "image": "images/jamaican_breeze.jpg",
+    "ingredients": [
+      {
+        "item": "Rom Jamaican",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Suc Ananas",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Sirop zahar",
+        "quantity": "15mL (1/2oz)"
+      },
+      {
+        "item": "Angostura",
+        "quantity": "1 strop"
+      },
+      {
+        "item": "Ghimbir",
+        "quantity": "O bucata, curatata si zdrobita"
+      }
+    ],
+    "preparation": "Ghimbir + restul ingredientelor in shaker",
+    "serving": "Pahar cocktail, gheata, felie lime",
+    "video": "https://www.youtube.com/watch?v=CTbOytls2kM"
+  },
+  {
+    "id": "dark_n_stormy",
+    "name": "Dark 'N Stormy",
+    "category": "rom",
+    "image": "images/dark-n-stormy.jpg",
+    "ingredients": [
+      {
+        "item": "Rom negru",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Bere ghimbir",
+        "quantity": ""
+      },
+      {
+        "item": "Angostura",
+        "quantity": "2 stropi"
+      }
+    ],
+    "preparation": "Bere ghimbir in pahar cu gheata, Angostura, romul adaugat peste",
+    "serving": "Pahar cocktail, gheata, felie lime",
+    "video": "https://www.youtube.com/watch?v=FT43iTg0RYQ"
+  },
+  {
+    "id": "jungle_bird",
+    "name": "Jungle Bird",
+    "category": "rom",
+    "image": "images/jungle-bird.jpg",
+    "ingredients": [
+      {
+        "item": "Rom negru",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Campari",
+        "quantity": "22.5mL (3/4oz)"
+      },
+      {
+        "item": "Suc ananas",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Suc lime",
+        "quantity": "22.5mL (3/4oz)"
+      },
+      {
+        "item": "Sirop zahar",
+        "quantity": "15mL (1/2oz)"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker",
+    "serving": "Pahar cocktail, gheata, 2 frunze ananas + 2 bucati de ananas",
+    "video": "https://www.youtube.com/watch?v=LZGK5VLWvME"
+  },
+  {
+    "id": "manhattan",
+    "name": "Manhattan",
+    "category": "whiskey",
+    "image": "images/manhattan.jpg",
+    "ingredients": [
+      {
+        "item": "Whiskey (rye)",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Vermouth dulce",
+        "quantity": "30mL (1/2oz)"
+      },
+      {
+        "item": "Angostura",
+        "quantity": "2 stropi"
+      }
+    ],
+    "preparation": "Amestecate cu gheata in pahar de mixare",
+    "serving": "Pahar martini / coupe racit, cireasa maraschino",
+    "video": "https://www.youtube.com/watch?v=TFWPtkNoF4Y,https://www.youtube.com/watch?v=eWESf1b317Y"
+  },
+  {
+    "id": "old_fashioned",
+    "name": "Old fashioned",
+    "category": "whiskey",
+    "image": "images/old-fashioned.jpg",
+    "ingredients": [
+      {
+        "item": "Whiskey",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Sirop zahar / cub zahar",
+        "quantity": "7.5mL (1/4oz)"
+      },
+      {
+        "item": "Angostura",
+        "quantity": "4 stropi"
+      }
+    ],
+    "preparation": "Amestecate cu gheata in pahar de mixare",
+    "serving": "Pahar whiskey, gheata (mare), stropi coaja de portocala, cireasa maraschino",
+    "video": "https://www.youtube.com/watch?v=pdcrJ5V7YKM"
+  },
+  {
+    "id": "monte_carlo",
+    "name": "Monte Carlo",
+    "category": "whiskey",
+    "image": "images/monte-carlo.jpg",
+    "ingredients": [
+      {
+        "item": "Whiskey (rye)",
+        "quantity": "45mL (1.5oz)"
+      },
+      {
+        "item": "Bénédictine D.O.M.",
+        "quantity": "15mL (1/2oz)"
+      },
+      {
+        "item": "Angostura",
+        "quantity": "2 stropi"
+      }
+    ],
+    "preparation": "Amestecate cu gheata in pahar de mixare",
+    "serving": "Pahar whiskey, gheata (mare), stropi coaja de lamaie",
+    "video": "https://www.youtube.com/watch?v=u1PQ-L6zvb8"
+  },
+  {
+    "id": "godfather",
+    "name": "Godfather",
+    "category": "scotch",
+    "image": "images/godfather.jpg",
+    "ingredients": [
+      {
+        "item": "Scotch",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Amaretto",
+        "quantity": "15mL (1/2oz)"
+      }
+    ],
+    "preparation": "Amestecate cu gheata in pahar de mixare",
+    "serving": "Pahar whiskey, gheata (mare), stropi coaja de portocala, cireasa maraschino",
+    "video": "https://www.youtube.com/watch?v=3DhncxCCB-E"
+  },
+  {
+    "id": "rob_roy",
+    "name": "Rob Roy",
+    "category": "scotch",
+    "image": "images/rob-roy.jpg",
+    "ingredients": [
+      {
+        "item": "Scotch",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Vermouth dulce",
+        "quantity": "22.5mL (3/4oz)"
+      },
+      {
+        "item": "Angostura",
+        "quantity": "2 stropi"
+      }
+    ],
+    "preparation": "Amestecate cu gheata in pahar de mixare",
+    "serving": "Pahar martini / coupe racit, cireasa maraschino",
+    "video": "https://www.youtube.com/watch?v=LfASKHFzBCg"
+  },
+  {
+    "id": "churchill",
+    "name": "Churchill",
+    "category": "scotch",
+    "image": "images/churchill.jpg",
+    "ingredients": [
+      {
+        "item": "Blended Scotch",
+        "quantity": "45mL"
+      },
+      {
+        "item": "Cointreau",
+        "quantity": "15mL"
+      },
+      {
+        "item": "Vermouth dulce",
+        "quantity": "15mL"
+      },
+      {
+        "item": "Suc lime",
+        "quantity": "15mL"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker",
+    "serving": "Pahar coupe racit",
+    "video": "https://www.youtube.com/watch?v=ck3u8K0Hwm0"
+  },
+  {
+    "id": "bobby_burns",
+    "name": "Bobby Burns",
+    "category": "scotch",
+    "image": "images/bobby-burns.jpg",
+    "ingredients": [
+      {
+        "item": "Blended Scotch",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Vermouth dulce",
+        "quantity": "30mL (1oz)"
+      },
+      {
+        "item": "Bendictine D.O.M.",
+        "quantity": "15mL (1/2oz)"
+      }
+    ],
+    "preparation": "Amestecate cu gheata in pahar de mixare",
+    "serving": "Pahar coupe (mic) racit",
+    "video": "https://www.youtube.com/watch?v=X5haIFd1Ysw"
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "category": "vodka",
+    "image": "images/cosmopolitan.jpg",
+    "ingredients": [
+      {
+        "item": "Vodka Lemon",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Cointreau",
+        "quantity": "15mL (1/2oz)"
+      },
+      {
+        "item": "Sirop merisoare",
+        "quantity": "20-45 mL (3/4-1 1/2oz)"
+      },
+      {
+        "item": "Suc lime",
+        "quantity": "15mL (1/2oz)"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker",
+    "serving": "Pahar martini racit, stropi din coaja de portocala",
+    "video": "https://www.youtube.com/watch?v=y23sJPG5McA"
+  },
+  {
+    "id": "lemon_drop_martini",
+    "name": "Lemon Drop Martini",
+    "category": "vodka",
+    "image": "images/lemon-drop-martini.jpg",
+    "ingredients": [
+      {
+        "item": "Vodka Lemon",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Cointreau",
+        "quantity": "15mL (1/2oz)"
+      },
+      {
+        "item": "Suc lamaie",
+        "quantity": "30mL (1oz)"
+      },
+      {
+        "item": "Sirop zahar",
+        "quantity": "15mL (1/2oz)"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker",
+    "serving": "Pahar coupe, zahar pe margine, racit",
+    "video": "https://www.youtube.com/watch?v=ipxxa5FM03Y"
+  },
+  {
+    "id": "gin_tonic",
+    "name": "Gin tonic",
+    "category": "gin",
+    "image": "images/gin-tonic.jpg",
+    "ingredients": [
+      {
+        "item": "Gin",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Apa tonica",
+        "quantity": ""
+      }
+    ],
+    "preparation": "Gheata in pahar, gin, apa minerala peste",
+    "serving": "Pahar cocktail, gheata, felie lime",
+    "video": "https://www.youtube.com/watch?v=IkOtbXCuiZw"
+  },
+  {
+    "id": "tom_collins",
+    "name": "Tom Collins",
+    "category": "gin",
+    "image": "images/tom-collins.jpg",
+    "ingredients": [
+      {
+        "item": "Gin",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Suc lamaie",
+        "quantity": "30mL (1oz)"
+      },
+      {
+        "item": "Sirop zahar",
+        "quantity": "15mL (1/2oz)"
+      },
+      {
+        "item": "Apa minerala",
+        "quantity": "60-90 mL (2-3oz)"
+      }
+    ],
+    "preparation": "Gin + Suc lamaie + Sirop zahar in shaker",
+    "serving": "Pahar cocktail, gheata, apa minerala, felie lamaie",
+    "video": "https://www.youtube.com/watch?v=Fs2eohpln2M"
+  },
+  {
+    "id": "gimlet",
+    "name": "Gimlet",
+    "category": "gin",
+    "image": "images/gimlet.jpg",
+    "ingredients": [
+      {
+        "item": "Gin",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Suc lime",
+        "quantity": "30mL (1oz)"
+      },
+      {
+        "item": "Sirop zahar",
+        "quantity": "15mL (1/2oz)"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker",
+    "serving": "Pahar coupe, racit, felie lime",
+    "video": "https://www.youtube.com/watch?v=nCS8hqH9MnE"
+  },
+  {
+    "id": "sidecar",
+    "name": "Sidecar",
+    "category": "cognac",
+    "image": "images/sidecar.jpg",
+    "ingredients": [
+      {
+        "item": "Cognac",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Cointreau",
+        "quantity": "30mL (1oz)"
+      },
+      {
+        "item": "Suc lamaie",
+        "quantity": "15mL (1/2oz)"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker",
+    "serving": "Pahar coupe, zahar pe margine, racit, felie lamaie",
+    "video": "https://www.youtube.com/watch?v=HtZamU4tGA4,https://www.youtube.com/watch?v=nXED2nkfEEQ"
+  },
+  {
+    "id": "margarita",
+    "name": "Margarita",
+    "category": "tequila",
+    "image": "images/margarita.jpg",
+    "ingredients": [
+      {
+        "item": "Tequila",
+        "quantity": "45mL (1 1/2oz)"
+      },
+      {
+        "item": "Cointreau",
+        "quantity": "22.5mL (3/4oz)"
+      },
+      {
+        "item": "Suc lime",
+        "quantity": "22.5mL (3/4oz)"
+      }
+    ],
+    "preparation": "Toate ingredientele in shaker",
+    "serving": "Pahar coupe, sare kosher pe margine, racit, felie lime",
+    "video": "https://www.youtube.com/watch?v=XhXgmkP1r3c"
+  },
+  {
+    "id": "caipirinha",
+    "name": "Caipirinha",
+    "category": "cachaca",
+    "image": "images/caipirnha.jpg",
+    "ingredients": [
+      {
+        "item": "Cachaca",
+        "quantity": "60mL (2oz)"
+      },
+      {
+        "item": "Lime",
+        "quantity": "3/4 lime"
+      },
+      {
+        "item": "Zahar brun",
+        "quantity": "2 linguri"
+      }
+    ],
+    "preparation": "Lime taiat in 8, 6 bucati + zahar zdrobite in pahar, umplut cu gheata, turnat Cachaca, amestecat",
+    "serving": "Pahar whiskey",
+    "video": "https://www.youtube.com/watch?v=alEN21hwRYI"
+  }
+]
