@@ -25,7 +25,7 @@ function renderMenu(filter = 'all') {
         card.classList.add('card');
         card.innerHTML = `
       <div class="image-container">
-         <img src="${c.image}" alt="${c.name}" onerror="this.onerror=null; this.src='images/not_found.png';">
+         <img src="${c.image}" alt="${c.name}" onerror="this.onerror=null; this.src='images/not-found.png';">
       </div>
       <h2>${c.name}</h2>
       <p class="content">${ingredients}</p>

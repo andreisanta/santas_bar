@@ -154,7 +154,7 @@
     "id": "bella_donna_daiquiri",
     "name": "Bella Donna daiquiri",
     "category": "rom",
-    "image": "images/bella_donna_daquiri.jpg",
+    "image": "images/bella-donna-daquiri.jpg",
     "ingredients": [
       {
         "item": "Rom negru",
@@ -181,7 +181,7 @@
     "id": "jamaican_breeze",
     "name": "Jamaican Breeze",
     "category": "rom",
-    "image": "images/jamaican_breeze.jpg",
+    "image": "images/jamaican-breeze.jpg",
     "ingredients": [
       {
         "item": "Rom Jamaican",
@@ -596,7 +596,7 @@
     "id": "caipirinha",
     "name": "Caipirinha",
     "category": "cachaca",
-    "image": "images/caipirnha.jpg",
+    "image": "images/caipirinha.jpg",
     "ingredients": [
       {
         "item": "Cachaca",
