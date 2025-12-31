@@ -33,12 +33,48 @@ body {
     font-size: 1.6rem;
 }
 
-/* Filters */
-.filters {
+/* Navigation */
+.top-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100vw;
+    background-color: #020617;
+}
+
+.top-nav.menu {
+    width: 100%;
     display: flex;
     gap: 0.5rem;
     padding: 0.6rem;
     overflow-x: auto;
+}
+
+.nav-btn {
+    flex: 1;
+    padding: 0.6rem 0.9rem;
+    border-radius: 999px;
+    border: none;
+    background: #111827;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-btn.active {
+    background: #dc2626;
+}
+
+/* Filters */
+.filters {
+    position: sticky;
+    top: 50px;
+    z-index: 999;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.6rem;
+    overflow-x: auto;
+    background-color: #020617;
 }
 
 .filters button {
@@ -69,6 +105,7 @@ body {
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    padding: 16px;
 }
 
 .card.empty {
@@ -88,6 +125,18 @@ body {
     object-fit: contain;
 }
 
+.card .image-container-details {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px
+}
+
+.card .image-container-details img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .card h1,
 .card h2 {
     margin: 0.8rem 1rem 0.2rem;
@@ -102,22 +151,19 @@ body {
 
 /* Buttons */
 .btn {
-    display: block;
-    margin: 0 1rem 1rem;
-    padding: 0.65rem;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.65rem; 
     text-align: center;
     background: #dc2626;
     color: #fff;
     border-radius: 999px;
     text-decoration: none;
     font-size: 0.9rem;
-}
-
-.btn.back {
-    margin-top: 1.5rem;
-    /* separă de conținut */
-    margin-bottom: 1rem;
-    /* păstrează spațiu jos */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -127,6 +173,15 @@ body {
     padding: 1.5rem;
     font-size: 0.85rem;
     color: #9ca3af;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    opacity: 0.8;
 }
 
 /* Desktop */

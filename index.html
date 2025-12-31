@@ -19,22 +19,57 @@
     </div>
   </header>
 
-  <div class="filters">
-    <button data-filter="all" class="active">Toate</button>
-    <button data-filter="rom">Rom</button>
-    <button data-filter="scotch">Scotch</button>
-    <button data-filter="whiskey">Whiskey</button>
-    <button data-filter="gin">Gin</button>
-    <button data-filter="vodka">Vodka</button>
-    <button data-filter="cognac">Cognac</button>
-    <button data-filter="tequila">Tequila</button>
-    <button data-filter="cachaca">Cachaca</button>
+  <div class="top-nav menu">
+    <button class="nav-btn active" data-target="cocktails">Cocktails</button>
+    <button class="nav-btn" data-target="bar-list">Bar List</button>
   </div>
 
-  <main class="menu" id="menu"></main>
+  <section id="cocktails">
+    <div class="filters">
+      <button data-filter="all" class="cocktail-btn active">Toate</button>
+      <button data-filter="rom" class="cocktail-btn">Rom</button>
+      <button data-filter="scotch" class="cocktail-btn">Scotch</button>
+      <button data-filter="whiskey" class="cocktail-btn">Whiskey</button>
+      <button data-filter="gin" class="cocktail-btn">Gin</button>
+      <button data-filter="vodka" class="cocktail-btn">Vodka</button>
+      <button data-filter="cognac" class="cocktail-btn">Cognac</button>
+      <button data-filter="tequila" class="cocktail-btn">Tequila</button>
+      <button data-filter="cachaca" class="cocktail-btn">Cachaca</button>
+    </div>
+
+    <main class="menu" id="menu"></main>
+  </section>
+
+  <section id="recipe" style="display: none;">
+    <main class="menu" id="recipe-container"></main>
+  </section>
+  <section id="bar-list" style="display:none;">
+    <div class="menu"></div>
+  </section>
+  <section id="disclaimer" style="display:none;">
+    <main class="menu">
+      <div class="card empty"></div>
+      <div class="card">
+        <h2>Disclaimer</h2>
+        <p class="content"></p>
+        <p class="content">This website is provided for informational and educational purposes only.</p>
+        <p class="content">All cocktail recipes and preparation steps reflect personal methods and general bartending
+          practices. </p>
+
+        <p class="content"> Brand names and external links are included
+          solely for identification and reference. No affiliation, sponsorship, or endorsement is implied.</p>
+
+        <p class="content">This content is intended for individuals of legal drinking age in their country.</p>
+      </div>
+      <div class="card empty"></div>
+    </main>
+  </section>
 
   <footer class="footer">
-    &copy; 2025 Santa's Bar
+    <p>
+      © <span id="current-year"></span> Santa’s Bar ·
+      <a href="#" id="disclaimer-link">Disclaimer</a>
+    </p>
   </footer>
 
   <script src="script.js"></script>

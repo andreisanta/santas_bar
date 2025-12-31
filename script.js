@@ -1,9 +1,32 @@
+// Navigation
+
+const menuItems = document.querySelectorAll('.nav-btn');
+const sections = document.querySelectorAll('section');
+
+function showSection(id) {
+    sections.forEach(sec => {
+        sec.style.display = sec.id === id ? 'block' : 'none';
+    });
+
+    menuItems.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.target === id);
+    });
+}
+
+menuItems.forEach(btn => {
+    btn.addEventListener('click', () => {
+        showSection(btn.dataset.target);
+    });
+});
+
+// Cocktails
+
 const menuContainer = document.getElementById('menu');
-const filterButtons = document.querySelectorAll('.filters button');
+const filterButtons = document.querySelectorAll('.filters .cocktail-btn');
 
 let cocktails = [];
 
-// Încarcă JSON-ul extern
+// Load cocktails
 fetch('drinks.json')
     .then(res => res.json())
     .then(data => {
@@ -29,7 +52,7 @@ function renderMenu(filter = 'all') {
       </div>
       <h2>${c.name}</h2>
       <p class="content">${ingredients}</p>
-      <a href="reteta.html?id=${c.id}" class="btn">Vezi rețeta</a>
+      <buton onclick="showRecipe('${c.id}')" class="btn">Vezi rețeta</button>
     `;
         menuContainer.appendChild(card);
     });
@@ -42,4 +65,60 @@ filterButtons.forEach(btn => {
         btn.classList.add('active');
         renderMenu(btn.dataset.filter);
     });
+});
+
+// Load single cocktail
+function showRecipe(recipeId) {
+    showSection('recipe');
+    loadRecipe(recipeId);
+}
+
+function loadRecipe(recipeId) {
+    const container = document.getElementById('recipe-container');
+
+    fetch('drinks.json')
+        .then(res => res.json())
+        .then(data => {
+            const recipe = data.find(r => r.id === recipeId);
+            if (!recipe) {
+                container.innerHTML = "<p>Rețeta nu a fost găsită.</p>";
+                return;
+            }
+
+            const ingredientsList = recipe.ingredients.map(i => `<li>${i.quantity} ${i.item}</li>`).join('');
+            const videos = recipe.video ? recipe.video.split(",").map((video, index) => `<p class="content"><a href="${video}" target="_blank">Video preparare ${index > 0 ? index + 1 : ''}</a></p>`).join("") : ""
+
+            container.innerHTML = `
+                <div class="card empty"></div>
+                <div class="card">
+                    <header class="header">
+                        <h1>${recipe.name}</h1>
+                    </header>
+                    <div class="image-container-details">
+                        <img src="${recipe.image}" alt="${recipe.name}" onerror="this.onerror=null; this.src='images/not-found.png';">
+                    </div>
+                    <h2>Ingrediente</h2>
+                    <ul>${ingredientsList}</ul>
+                    <h2>Preparare</h2>
+                    <p class="content">${recipe.preparation}</p>
+                    <h2>Servire</h2>
+                    <p class="content">${recipe.serving}</p>
+                    ${videos}
+                    <button onclick="showSection('cocktails')" class="btn">Înapoi la lista de cocktailuri</button>
+                </div>
+                <div class="card empty"></div>
+        `;
+        });
+}
+
+// Disclaimer
+
+document.getElementById('current-year').textContent = new Date().getFullYear();
+
+const disclaimerLink = document.getElementById('disclaimer-link');
+
+disclaimerLink.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    showSection('disclaimer');
 });
