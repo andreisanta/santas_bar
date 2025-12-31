@@ -91,8 +91,8 @@ body {
     background: #dc2626;
 }
 
-/* Menu grid */
-.menu {
+/* Cards grid */
+.pageContainer {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -186,7 +186,7 @@ body {
 
 /* Desktop */
 @media (min-width: 768px) {
-    .menu {
+    .pageContainer {
         grid-template-columns: repeat(3, 1fr);
     }
 }

@@ -21,7 +21,7 @@ menuItems.forEach(btn => {
 
 // Cocktails
 
-const menuContainer = document.getElementById('menu');
+const cocktailListContainer = document.getElementById('cocktail-list');
 const filterButtons = document.querySelectorAll('.filters .cocktail-btn');
 
 let cocktails = [];
@@ -31,12 +31,12 @@ fetch('drinks.json')
     .then(res => res.json())
     .then(data => {
         cocktails = data;
-        renderMenu('all');
+        renderCocktailList('all');
     })
     .catch(err => console.error("Eroare la citirea drinks.json:", err));
 
-function renderMenu(filter = 'all') {
-    menuContainer.innerHTML = '';
+function renderCocktailList(filter = 'all') {
+    cocktailListContainer.innerHTML = '';
     let filtered = cocktails;
     if (filter !== 'all') {
         filtered = cocktails.filter(c => c.category === filter);
@@ -54,7 +54,7 @@ function renderMenu(filter = 'all') {
       <p class="content">${ingredients}</p>
       <buton onclick="showRecipe('${c.id}')" class="btn">Vezi rețeta</button>
     `;
-        menuContainer.appendChild(card);
+        cocktailListContainer.appendChild(card);
     });
 }
 
@@ -63,9 +63,20 @@ filterButtons.forEach(btn => {
     btn.addEventListener('click', () => {
         filterButtons.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        renderMenu(btn.dataset.filter);
+        renderCocktailList(btn.dataset.filter);
+        scrollToTopOfCocktails()
     });
 });
+
+function scrollToTopOfCocktails() {
+    const yOffset = -120; // înălțimea totală a meniurilor sticky
+    const y =
+        cocktailListContainer.getBoundingClientRect().top +
+        window.pageYOffset +
+        yOffset;
+
+    window.scrollTo({ top: y, behavior: 'smooth' });
+}
 
 // Load single cocktail
 function showRecipe(recipeId) {
